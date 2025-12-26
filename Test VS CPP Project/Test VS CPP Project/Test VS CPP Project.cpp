@@ -5,7 +5,7 @@
 
 	int main()
 	{
-		std::cout << "Change made on local repo and other developer!\n";
+		std::cout << "Change made by another developer!\n";
 	}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

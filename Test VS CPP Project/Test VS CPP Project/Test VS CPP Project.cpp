@@ -6,6 +6,7 @@
 	int main()
 	{
 		std::cout << "Change made by another developer!\n";
+		std::cout << "Change from local" << std::endl;
 	}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

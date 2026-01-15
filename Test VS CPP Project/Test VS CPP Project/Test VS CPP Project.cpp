@@ -1,12 +1,19 @@
-// Test VS CPP Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 	#include <iostream>
+	
+	using namespace std;
 
 	int main()
 	{
-		std::cout << "Change made by another developer!\n";
-		std::cout << "Change from local" << std::endl;
+		string name = "Niklas";
+		int age = 40;
+		
+		cout << "My name is " << name << endl;
+		cout << "I am " << age << " years old." << endl;
+		
+		double dogYearsAge = age/6.0;
+		cout << "My age in dog years is " << dogYearsAge << endl;
+
+
 	}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
